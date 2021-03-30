@@ -132,3 +132,12 @@ ul.text {
         .iconblock-6:hover h3 {
             color: #000;
         } 
+
+
+        .text {
+        color: #0d004c;
+        font-weight: 600;
+        font-size: 40px;
+        font-family: 'Phenomena-Bold', sans-serif;
+        margin: 15px 0 15px 0;
+        }

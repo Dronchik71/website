@@ -1,0 +1,56 @@
+<section id="header">
+    <div class="header_worktime">
+      <div class="header_worktime-block">
+        <p>Режим работы</p>
+        <span>Пн-Вс c 09:00 до 22:00</span>
+      </div>
+      <div class="header_worktime-title">
+        <p>Мы делаем торжество незабываемым!</p>
+      </div>
+      <div class="header_worktime-contact">
+        <a id="nav_phone" href="tel:+7 (906) 355-99-12">8 (906) 355-99-12</a>
+      </div>
+    </div>
+    <div class="header_wrap">
+      <div class="header_form-wrap">
+        <form id="header_form" class="form-group" method="POST">
+          <div class="header_form-name">
+            <p>Закажите детский<br>праздник!</p>
+          </div>
+          <input type="hidden" name="form-name" value="Форма-header">
+          <input type="hidden" name="form_city" value="Кострома">
+          <div class="header-input-username">
+            <input class="header-username" type="username" name="name" placeholder="Введите имя" required="required">
+          </div>
+          <div class="header-input-phone_number">
+            <input class="header-phone_number" type="phone_number" name="phone" placeholder="Введите номер телефона" required="required">
+          </div>
+          <div class="header_form_block-checkbox-muted">
+            <input type="checkbox" id="header_form_checkbox-muted" checked="">
+            <label for="header_form_checkbox-muted"><small>Я согласен(а) с <a href="politika.php" rel="nofollow">«Политикой конфиденциальности»</a> сайта</small></label>
+          </div>
+          <div class="header_form-zakaz">
+            <button type="submit" class="btn-header_form btn-header-buttona">Заказать</button>
+          </div>
+        </form>
+      </div>
+      <div class="header_title-wrap">
+        <div class="header_title-logo"></div>
+        <h1>Аниматоры, проведение детских праздников в Костроме</h1>
+        <h2>Агентство праздников</h2> 
+        <p class="header_title-info">Выезжаем в любой район</p>
+        <div class="header_title-item-block">
+         <p class="header_title-item-2">Более 120 персонажей</p>
+         <p class="header_title-item-3">Яркий реквизит</p>
+         <p class="header_title-item-4">Аниматоры от 2000 р.</p>  
+       </div>
+       <div class="header_contact">
+        <a id="header_phone" href="tel:+7 (906) 355-99-12">8 (906) 355-99-12</a>
+      </div>
+      <div class="header_mobile-zakaz">
+       <a href="#callback" class="callback mobile-zakaz" data-form="Заказать праздник моб. версия" data-text="Заказать праздник">Заказать</a>
+     </div>
+   </div>
+   <div class="header_bg-wrap"></div>
+ </div>
+</section>

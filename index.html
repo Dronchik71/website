@@ -1,34 +1,32 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+  <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Главная</title>
     <link rel="stylesheet" type="text/css" href="css/index.css">
-    <script src="./js/main.js"></script>
 </head>
-<body background="img/fon.jpg">
+<body>
    
-    <div class="nav_trigger_wrap">
-        <button onclick="myFunction()"
-        <div class="nav_trigger">
-            <span class="line"></span>
-            <span class="line"></span>
-            <span class="line"></span>
+    <div class="menu">
+        <div class="menu-btn">
+            <span></span>
           </div>
        <!-- <p align="center">Меню</p> -->
       </div>
-    </button>
 
-      <div class="nav_panel" style="display: block;">
+      <div class="menu-list">
         <div class="nav_panel_block">
-          <div id="myDropdown" class="nav_link-wrap">
+          <div class="nav_link-wrap">
+            <a class="nav_link-1 nav_link" a href="index.html">Главная</a>
             <a class="nav_link-1 nav_link" a href="./component/list.html">Список программ</a>         
           </div>    
         </div>  
       </div>
-
+      <section id="header">
     <div class="header_worktime">
         <div class="header_worktime-block">
           <p>Режим работы</p>
@@ -44,29 +42,7 @@
 
       <div class="header_wrap">
 
-      <div class="header_form-wrap">
-        <form id="header_form" class="form-group" method="POST">
-          <div class="header_form-name">
-            <p><b>Закажите детский<br>праздник!</b></p>
-          </div>
-          <input type="hidden" name="form-name" value="Форма-header">
-          <input type="hidden" name="form_city" value="Шарья">
-          <div class="header-input-username">
-            <input class="header-username" type="username" name="name" placeholder="Введите имя" required="required">
-          </div>
-          <div class="header-input-phone_number">
-            <input class="header-phone_number" type="phone_number" name="phone" placeholder="Введите номер телефона" required="required">
-          </div>
-          <div class="header_form_block-checkbox-muted">
-            <input type="checkbox" id="header_form_checkbox-muted" checked="">
-            <label for="header_form_checkbox-muted"><small>Я согласен(а) с <a href="" rel="nofollow">«Политикой конфиденциальности»</a> сайта</small></label>
-          </div>
-          <div class="header_form-zakaz">
-            <button type="submit" class="btn-header_form btn-header-buttona">Заказать</button>
-          </div>
-        </form>
-      </div>
-
+    
       <div class="header_title-wrap">
         <div class="header_title-logo"></div>
         <h1>Аниматоры, проведение детских праздников в Шарье</h1>
@@ -80,10 +56,143 @@
        </div>
    </div>
 </div>
+</section>
+
+<section id="happy">
+  <div class="happy_wrap">
+    <div class="happy_block-text">
+      <p class="happy_block-text-item_1">Посмотрите на счастливые лица наших именинников.</p>
+      <p class="happy_block-text-item_2">Такие эмоции наши аниматоры дарят детям на каждом празднике!</p>
+      <p class="happy_block-text-item_2">Хотите так же? Закажите праздник у нас!</p>
+    </div>
+<br>
+  <div class="card">
+   
+  </div>
+  <br>
+ <div class="b">
+  <a href="#" class="button7">Предыдущее</a>
+  <a href="#" class="button7">Следущее</a>
+</div>
+
+</section>
+
+<section class="work">
+  <div class="section_work_name">
+    <h2>Как мы работаем</h2>
+  </div>  
+  <div class="work_container">
+    <div class="work_container_item-1">
+      <div class="work_container_item-fon">
+        <img class="b-lazy b-loaded" src="img/work/icon_work-1.svg" alt="">
+      </div>
+      <div class="work_container_item-text">
+        <p>Позвоните нам по телефону</p>
+      </div>
+    </div>
+    <div class="work_container_item-2">
+      <div class="work_container_item-fon">
+        <img class="b-lazy b-loaded" src="img/work/icon_work-2.svg" alt="">
+      </div>
+      <div class="work_container_item-text">
+        <p>Подбираем подходящую программу учитывая интересы Вашего ребенка</p>
+      </div>
+    </div>
+    <div class="work_container_item-3">
+      <div class="work_container_item-fon">
+        <img class="b-lazy b-loaded" src="img/work/icon_work-3.svg" alt="">
+      </div>
+      <div class="work_container_item-text">
+        <p>Репетируем, готовим костюмы и подбираем реквизит</p>
+      </div>
+    </div>
+    <div class="work_container_item-4">
+      <div class="work_container_item-fon">
+        <img class="b-lazy b-loaded" src="img/work/icon_work-4.svg" alt="">
+      </div>
+      <div class="work_container_item-text">
+        <p>Дарим массу ярких впечатлений Вам и Вашим детям!</p>
+      </div>
+    </div>    
+  </div>
+  <hr class="works">
+</section>
+<br>
+
+<div class="sidebar p-4" id="free"  style="display: block;"> 
+  <a href="#close" class="close-btn">&times;</a>
+  <h4>Free</h4>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae ducimus adipisci fugit culpa dolorum aspernatur, vel praesentium sint minus excepturi porro facilis possimus deleniti ad tenetur voluptas ipsam impedit doloremque?</p> 
+</div>
+
+<div class="sidebar p-4" id="pro"  style="display: block;">  
+  <a href="#close" class="close-btn">&times;</a>
+  <h4>Pro</h4>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae ducimus adipisci fugit culpa dolorum aspernatur, vel praesentium sint minus excepturi porro facilis possimus deleniti ad tenetur voluptas ipsam impedit doloremque?</p> 
+</div>
+
+<div class="sidebar p-4" id="enterprise"  style="display: block;"> 
+  <a href="#close" class="close-btn">&times;</a>
+  <h4>Enterprise</h4>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae ducimus adipisci fugit culpa dolorum aspernatur, vel praesentium sint minus excepturi porro facilis possimus deleniti ad tenetur voluptas ipsam impedit doloremque?</p> 
+</div>
 
 
-  
+<div class="container pt-4">
+  <div class="card-deck mb-3 text-center">
+    <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 font-weight-normal">Free</h4>
+      </div>
+      <div class="card-body">
+        <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
+        <ul class="list-unstyled mt-3 mb-4">
+          <li>10 users included</li>
+          <li>2 GB of storage</li>
+          <li>Email support</li>
+          <li>Help center access</li>
+        </ul>
+        <a href="#free" class="btn btn-lg btn-block btn-outline-primary">More info</a>
+      </div>
+    </div> 
+    <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 font-weight-normal">Pro</h4>
+      </div>
+      <div class="card-body">
+        <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small></h1>
+        <ul class="list-unstyled mt-3 mb-4">
+          <li>20 users included</li>
+          <li>10 GB of storage</li>
+          <li>Priority email support</li>
+          <li>Help center access</li>
+        </ul>
+        <a href="#pro" class="btn btn-lg btn-block btn-primary">More info</a>
+      </div>
+    </div>
+    <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 font-weight-normal">Enterprise</h4>
+      </div>
+      <div class="card-body">
+        <h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mo</small></h1>
+        <ul class="list-unstyled mt-3 mb-4">
+          <li>30 users included</li>
+          <li>15 GB of storage</li>
+          <li>Phone and email support</li>
+          <li>Help center access</li>
+        </ul>
+        <a href="#enterprise" class="btn btn-lg btn-block btn-primary">More info</a>
+      </div>
+    </div>
+  </div>
+</div>
 
+
+
+
+
+<script src="main.js"></script>
 
 </body>
 </html>
